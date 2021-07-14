@@ -1,0 +1,213 @@
+/*---------------------------------
+    fonts
+ ----------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/*---------------------------------
+    css common styles or utilities
+ ----------------------------------*/
+ body{
+    font-family: 'Poppins', sans-serif;
+
+ }
+ /*---------------------------------
+    header style starts here
+  ----------------------------------*/
+ .header{
+    background-color: #2D25A0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 49px 141px 86px 156px;
+ }
+ .header-title{
+    width: 485px;
+    height: 230px;
+    color: #FFFFFF;
+    font-size: 32px;
+    margin: 72px 102px 27px 0;
+ }
+ .header-btn{
+    background-color: #E02C6D;
+    width: 168px;
+    height: 44px;
+    padding: 10px 24px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 50px;
+    transition:color 1s ease, backgroud-color 1s ease, width 1s ease, height 1s ease, transform 1s ease;
+ }
+ .header-btn:hover{
+    color:#000000;
+    background-color: chartreuse;
+    width: 190px;
+    height: 66px;
+    transform: rotate(10deg);
+ }
+ .header-btn span{
+    width: 88px;
+    height: 24px;
+    font-size: 16px;
+    margin-right: 8px;
+ }
+ .header-btn i{
+    font-size: 16px;
+    margin-right: 8px;
+ }
+ .header-title h1{
+    margin: 0;
+ }
+ .header-banner img{
+    width: 556px;
+    height: 456px;
+    transition: transform 1s ease-in;
+ }
+ header:hover .header-banner img{
+    transform: rotate(-20deg);
+ }
+  /*---------------------------------
+    main style start here
+   ----------------------------------*/
+   .players{
+    padding: 85px 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px 30px;
+   }
+   .player{
+    width: 330px;
+    height: 474px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px 0 33px 0;
+    text-align: center;
+   }
+   .player img{
+    width: 300px;
+    height: 256px;
+   }
+   .player-name{
+    width: 300px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom:10px;
+    text-align: left;
+    padding-left: 15px;
+   }
+   .player-info{
+    width: 300px;
+    height: 104px;
+    color: #6C6C6C;
+    font-size: 16px;
+    padding: 0 15px;
+    text-align: justify;
+   }
+   /*---------------------------------
+    footer style starts here
+   ----------------------------------*/
+   .myFooter{
+    width: 483.87px;
+    height: 213px;
+    margin: 0 auto;
+   }
+   .footer-logo img{
+    width: 483.87px;
+    height: 110px;
+    margin-bottom: 20px;
+   }
+   .social-icons{
+   width: 170px;
+   height: 32px;
+   color: #969BAB;
+   font-size: 32px;
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   }
+   .social-icons i{
+      margin-right: 14px;
+      background-color: #a7a7393d;
+      padding: 0 10px;
+      border-radius: 20px;
+   }
+   footer p{
+      text-align: center;
+   }
+   /*---------------------------------
+    media queries style starts here
+   ----------------------------------*/
+   /*---------------------------------
+    mobile devices style starts here
+   ----------------------------------*/
+   @media only screen and (max-width:688px) {
+      .myHeader{
+         width: 100%;
+      }
+      .header{
+         grid-template-columns: repeat(1, 1fr);
+         justify-content: center;
+         align-items: center;
+      }
+      .header-info{
+         padding-left: 110px;
+      }
+      .header-title{
+         font-size: 25px;
+         margin:0 15px;
+      }
+   .header-banner img{
+      width: 380px;
+      height: 280px;
+      padding-left: 110px;
+      margin-top: 20px;
+   }
+   .top-players{
+      width: 100%;
+   }
+   .players{
+      grid-template-columns: repeat(1, 1fr);
+      justify-content: center;
+   }
+   footer{
+      width: 100%;
+   }
+   .myFooter{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     }
+     .footer-logo img{
+      width: 300px;
+      height: 90px;
+      margin-bottom: 20px;
+     }
+}
+   /*---------------------------------
+      tablet devices style starts here
+      ----------------------------------*/
+      @media only screen and (min-width:689px) and (max-width:991px){
+         .myHeader{
+            width: 100%;
+         }
+         .header{
+            grid-template-columns: repeat(1, 1fr);
+         }
+         .top-players{
+            width: 100%;
+         }
+         .players{
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: center;
+         }
+         footer{
+            width: 100%;
+            padding-bottom: 30px;
+         }
+         
+      }
+
+   
+   
+   
+   
+   
