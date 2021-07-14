@@ -34,7 +34,7 @@
     padding: 10px 24px;
     color: #FFFFFF;
     border: none;
-    margin-top: 50px;
+    margin-top: 30px;
     transition:color 1s ease, backgroud-color 1s ease, width 1s ease, height 1s ease, transform 1s ease;
  }
  .header-btn:hover{
@@ -141,10 +141,10 @@
    /*---------------------------------
     mobile devices style starts here
    ----------------------------------*/
-   @media only screen and (max-width:688px) {
-      .myHeader{
-         width: 100%;
-      }
+    @media only screen and (max-width:688px) {
+       .myHeader{
+          max-width: 100%;
+       }
       .header{
          grid-template-columns: repeat(1, 1fr);
          justify-content: center;
@@ -166,9 +166,6 @@
    .players{
       grid-template-columns: repeat(1, 1fr);
       justify-content: center;
-   }
-   footer{
-      width: 100%;
    }
    .myFooter{
       display: flex;
@@ -194,12 +191,13 @@
          .players{
             grid-template-columns: repeat(2, 1fr);
             justify-content: center;
+            align-items: center;
          }
          footer{
             padding-bottom: 30px;
-         }
+         } 
          
-      }
+      } */
 
    
    
