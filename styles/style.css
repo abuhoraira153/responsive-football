@@ -105,6 +105,57 @@
     text-align: justify;
    }
    /*---------------------------------
+    top paid players style starts here
+   ----------------------------------*/
+   .top-paid-players{
+      width: 800px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+   }
+   .player-title{
+      font-size: 30px;
+      background-color: rgb(43, 226, 217);
+      padding: 5px;
+      border-radius: 10px;
+      color: rgb(155, 92, 92);
+      text-align: center;
+   }
+   .desc{
+      font-weight: 400;
+      font-size: 15px;
+   }
+   .top-paid-img{
+      width: 700px;
+      border-radius: 10px;
+      margin: 0 auto;
+      padding-left: 50px;
+   }
+   /*---------------------------------
+    top ranking style starts here
+   ----------------------------------*/
+   .top-ranking{
+      width: 800px;
+      margin: 0 auto;
+      margin-bottom: 50px;
+   }
+   .ranking-title{
+      font-size: 30px;
+      background-color: #008b8b;
+      padding: 5px;
+      border-radius: 10px;
+      color: #FFFFFF;
+      text-align:center;
+   }
+   .ranking-desc{
+      font-weight: 400;
+      font-size: 15px;
+   }
+   .ranking-img img{
+      width: 500px;
+      height: 500px;
+      padding-left: 150px;
+   }
+   /*---------------------------------
     footer style starts here
    ----------------------------------*/
    .myFooter{
